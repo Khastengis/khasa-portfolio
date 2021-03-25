@@ -6,6 +6,7 @@ import {
     Route,
     Link
 } from "react-router-dom";
+import './styles/main.scss'
 
 const App = () => {
     return (
