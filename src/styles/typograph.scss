@@ -181,14 +181,9 @@
     font-weight: bold;
 }
 
-
-/* 
-    sass ашиглан 12 -оос 80 -ийн хооронд давтан
-    font-size, line-height -ийг зааж өгөх боломжтой class-ууд үүсгэ
-    Жишээ нь:
-        className='fs-16 lh-20'
-*/
-
+.bye-underline {
+    text-decoration: none;
+}
 @for $i from 12 through 80 {
 
     .fs-#{$i} {
