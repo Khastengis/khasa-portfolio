@@ -25,6 +25,11 @@
             border: solid $color $i + px;
         }
     }
+    @for $i from 1 through 30 {
+        .brr-#{$i} {
+            border-radius: $i + px;
+        }
+    }
 }
 
 @for $i from 1 through 10 {

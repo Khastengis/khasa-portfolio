@@ -1,6 +1,7 @@
 import React from 'react';
 // import { Layout, Button, Input, IconDash, IconEndBracket, IconStartBracket } from '../components/';
 import './home.scss'
+import { Skills } from '../skills/skills';
 
 export const Home = () => {
     return (
@@ -26,6 +27,9 @@ export const Home = () => {
                     <a href="#contact" className="c-default bye-underline">Contact</a>
                 </div>
 
+            </section>
+            <section>
+                <Skills />
             </section>
         </div>
     )
